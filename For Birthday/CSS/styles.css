@@ -706,6 +706,18 @@ footer a{
 }
 
 @media screen and (max-width: 500px) {
+  .container{
+    padding: 0 10px;
+  }
+
+  .header .container{
+    padding: 0 7px;
+  }
+
+  .welcome-display .container{
+    padding: 30px 10px;
+  }
+  
   .wish-container{
     flex-direction: column;
     gap: 20px;
